@@ -71,7 +71,7 @@ public class AdminController {
 			PhoneController PC = new PhoneController();
 			PC.sendMessages(alertList, name, oldItemPrice, newItemPrice);
 		}
-
+		System.out.println("Update");
 		List<Item> itemList = itemDaoImplementation.retrieveItem();
 		model.addObject("success", "Successful Update");
 		model.addObject("itemList", itemList);
