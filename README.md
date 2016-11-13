@@ -5,6 +5,8 @@ Once the admin updates the price, users receive alerts in the form of Email and 
 
 The project is develop using spring framework, client side validations using angular JS following MVC architecture
 
+The project Flow starts from Usercontroller. Multiple paths can be realised hence forth.
+
 Files Description
 1. It has 3 bean classes for saving item details, setting up alert details and saving user information.
 
