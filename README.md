@@ -10,6 +10,7 @@ Files Description
 
 2. There are 7 contollers 
 
+
 a. admincontroller to update prices in the database
 b. alert controller to set alerts
 c. email controller to send emails
